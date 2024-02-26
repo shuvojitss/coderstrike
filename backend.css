@@ -1,208 +1,88 @@
-body{
+body {
     background-color: black;
-    color:white;
+    color: white;
+    overflow-x: hidden;
 }
-.ab{
-    font-size:4rem;
+
+.ab {
+    font-size: 4rem;
     position: absolute;
-    top:10px;
-    left:500px;
+    top: 10px;
+    left: 500px;
 }
-.r{
-    font-size:1.5rem;
-    left:50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width:700px;
-    height:150px;
-    border:1px solid white;
+
+.r {
+    font-size: 1.5rem;
+    width: 700px;
+    height: 150px;
+    border: 1px solid white;
     border-radius: 15px;
-    padding:20px;
+    padding: 20px;
+    margin-left:30px;
+}
 
+.btr {
+    position: absolute;
+    top: 200px;
+    left: 960px;
+    height: 320px;
+    width: 300px;
 }
-.btr{
-    position:absolute;
-    top:200px;
-    left:920px;
-    height:320px;
-    width:300px;
 
-}
-.a{
-    justify-content: center;
-    padding:40px;
-    font-size:1.5rem;
-    color:white;
-}
-#bi{
-    font-size:2rem;
+#bi {
+    font-size: 2rem;
     position: relative;
-    left:300px;
+    left: 250px;
 }
-.s{
+
+.s {
     font-family: Pussycat, Algerian, Broadway;
-    font-size:3rem;
+    font-size: 3rem;
     position: relative;
-    left:400px;
+    left: 400px;
 }
-.z{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:600px;
-    left:10px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.x{border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:600px;
-    left:350px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+.buttons {
+    justify-content: center;
+    padding: 15px;
+    font-size: 1.5rem;
+    color: white;
 }
-.c{border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:600px;
-    left:690px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+.buttons a {
+    text-decoration: none;
+    margin:7px;
 }
-.v{border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:600px;
-    left:1030px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-.n{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:850px;
-    left:10px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.m{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:850px;
-    left:350px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-}
-.h{
-    border:1px solid white;
+.buttons button {
+    border: 1px solid white;
     cursor: pointer;
-    color:azure;
-    background-color:transparent;
+    color: azure;
+    background-color: transparent;
     width: 300px;
-    height:200px;
-    position:absolute;
-    top:850px;
-    left:690px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    font-size: 2rem; /* Adjusted font size */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top; /* Adjusted vertical alignment */
+    line-height: 1.2; /* Ensures proper spacing between lines of text */
+    text-align: center; /* Centers text horizontally */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflow text */
+    padding: 10px; /* Adjusted padding */
 }
-.j{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:850px;
-    left:1030px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+.buttons button:hover {
+    transform: scale(1.2); /* Increase size on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Lighten background color on hover */
 }
-.k{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:1100px;
-    left:10px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.l{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:1100px;
-    left:350px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.u{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:1100px;
-    left:690px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.i{
-    border:1px solid white;
-    cursor: pointer;
-    color:azure;
-    background-color:transparent;
-    width: 300px;
-    height:200px;
-    position:absolute;
-    top:1100px;
-    left:1030px;
-    font-size:2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.ss{
+
+.ss {
     font-size: 1.3rem;
-    position:relative;
-    top:700px;
-    left:450px;
+    position: relative;
+    top: 700px;
+    left: 450px;
 }
-
