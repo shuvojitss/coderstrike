@@ -166,3 +166,51 @@ body {
     left: 450px;
     margin-bottom: 20px;
 }
+/* For smaller screens, adjust layout */
+@media only screen and (max-width: 768px) {
+    .ab {
+        font-size: 3rem;
+        left: 250px;
+    }
+    
+    .r {
+        width: auto;
+        margin: 20px;
+    }
+    
+    .btr {
+        position: static;
+        margin: 20px auto;
+    }
+    
+    #bi {
+        font-size: 1.5rem;
+        left: 0;
+        text-align: center;
+    }
+    
+    .s {
+        font-size: 2rem;
+        left: 0;
+        text-align: center;
+    }
+    
+    #buttons {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    
+    #buttons button {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    
+    .ss {
+        font-size: 1rem;
+        left: 0;
+        text-align: center;
+    }
+}
+
