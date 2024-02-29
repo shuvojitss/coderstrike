@@ -166,7 +166,7 @@ body {
     left: 450px;
     margin-bottom: 20px;
 }
-@media only screen and (max-width:950px){
+@media only screen and (max-width:550px){
   .l9{
     position:absolute;
     top:80px;
