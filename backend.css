@@ -166,4 +166,33 @@ body {
     left: 450px;
     margin-bottom: 20px;
 }
-   
+@media only screen and (max-width:950px){
+  .l9{
+    position:absolute;
+    top:80px;
+    left:350px;
+    height:5%;
+    width:50%;
+  }
+  .ab{
+    position: relative;
+    left:200px;
+  }
+  #bi{
+    position: inherit;
+  }
+  .s{
+    position: relative;
+    left:100px;
+  }
+  #buttons{
+    position: relative;
+    left:100px;
+    padding: 0px;
+  }
+  .ss{
+    position: relative;
+    left:200px;
+  }
+
+}
