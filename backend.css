@@ -166,7 +166,7 @@ body {
     left: 450px;
     margin-bottom: 20px;
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:412px){
   .l9{
     position:absolute;
     text-align: center;
