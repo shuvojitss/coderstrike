@@ -166,33 +166,57 @@ body {
     left: 450px;
     margin-bottom: 20px;
 }
-@media only screen and (max-width:550px){
+@media only screen and (max-width:450px){
   .l9{
     position:absolute;
-    top:80px;
-    left:350px;
-    height:5%;
-    width:50%;
+    text-align: center;
+    top:30px;
+    left:200px;
+    height:120px;
+    width:180px;
+    
   }
   .ab{
     position: relative;
-    left:200px;
+    text-align: center;
+    left:0px;
   }
   #bi{
-    position: inherit;
+    position: relative;
+    left:0px;
+    border-collapse: collapse;
+    text-align:center;
   }
   .s{
     position: relative;
-    left:100px;
+    margin-top: 250px;;
+    left:0px;
+    text-align:center;
   }
   #buttons{
     position: relative;
-    left:100px;
+    left:40px;
     padding: 0px;
   }
   .ss{
     position: relative;
     left:200px;
   }
-
-}
+  .r{
+    width:300px;
+    border:none;
+    position: relative;
+    left:10px;
+  }
+  .btr{
+    position: relative;
+    left:40px;
+    top:20px;
+  }
+  .qw{
+    margin-top: 20px;
+    margin-left: 0px;
+    height:20%;
+    width: 50%;
+  }
+  }
