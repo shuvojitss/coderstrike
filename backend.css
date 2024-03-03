@@ -4,10 +4,13 @@ html{
 body {
     background-color: black;
     color: white;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
+
+/* CSS */
 .l9 {
-    padding: 0.5em 2em; 
+    padding: 0.5em 2em; /* Increased padding for larger size */
+    border: none;
     outline: none;
     color: rgb(255, 255, 255);
     background: #111;
@@ -20,9 +23,10 @@ body {
     -webkit-user-select: none;
     user-select: none;
     touch-action: manipulation;
+    /* Positioning */
     position: absolute;
-    top: 85px; 
-    right: 50px;
+    top: 85px; /* Moved down by 50px */
+    right: 50px; /* Adjust as needed */
   }
   
   .l9:before {
@@ -76,12 +80,16 @@ body {
     top: 0;
     border-radius: 10px;
   }
+  
+  
+
 .ab {
     font-size: 4rem;
     position: absolute;
     top: 10px;
     left: 450px;
 }
+
 .r {
     font-size: 1.5rem;
     width: 700px;
@@ -91,6 +99,7 @@ body {
     padding: 20px;
     margin-left:30px;
 }
+
 .btr {
     position: absolute;
     top: 200px;
@@ -98,27 +107,32 @@ body {
     height: 320px;
     width: 300px;
 }
+
 #bi {
     font-size: 2rem;
     position: relative;
     left: 250px;
 }
+
 .s {
     font-family: Pussycat, Algerian, Broadway;
     font-size: 3rem;
     position: relative;
     left: 400px;
 }
+
 #buttons {
     justify-content: center;
     padding: 15px;
     font-size: 1.5rem;
     color: white;
 }
+
 #buttons a {
     text-decoration: none;
     margin:7px;
 }
+
 #buttons button {
     border: 1px solid white;
     cursor: pointer;
@@ -138,23 +152,19 @@ body {
     text-overflow: ellipsis; /* Show ellipsis for overflow text */
     padding: 10px; /* Adjusted padding */
 }
+
+
 #buttons button:hover {
     transform: scale(1.2); /* Increase size on hover */
     background-color: rgba(255, 255, 255, 0.1); /* Lighten background color on hover */
 }
+
 .ss {
     font-size: 1.3rem;
     position: relative;
     top: 20px;
     left: 450px;
     margin-bottom: 20px;
-}
-.btr{
-  position: absolute;
-  top: 230px;
-  left: 980px;
-  height: 320px;
-  width: 300px;
 }
 @media only screen and (max-width:767px){
   body{
@@ -224,5 +234,4 @@ body {
   text-align: center;
   font-size:1.3rem;
 }
-  
 }
